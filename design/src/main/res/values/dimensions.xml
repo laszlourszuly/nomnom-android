@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="top">32dp</dimen>
+    <dimen name="side">24dp</dimen>
+    <dimen name="bottom">24dp</dimen>
+    <dimen name="between">16dp</dimen>
+    <dimen name="radius_small">4dp</dimen>
+    <dimen name="radius_medium">10dp</dimen>
+    <dimen name="radius_large">16dp</dimen>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Color definitions -->
+    <color name="green">#0a8a00</color>
+    <color name="red">#e00751</color>
+    <color name="orange">#ffa524</color>
+    <color name="blue">#0077c8</color>
+    <color name="purple_light">#FFBB86FC</color>
+    <color name="purple">#FF6200EE</color>
+    <color name="purple_dark">#FF3700B3</color>
+    <color name="teal_light">#FF03DAC5</color>
+    <color name="teal_dark">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="grey_darker">#111111</color>
+    <color name="grey_dark">#484848</color>
+    <color name="grey">#929292</color>
+    <color name="grey_light">#DFDFDF</color>
+    <color name="grey_lighter">#F5F5F5</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- Color context definitions -->
+    <color name="background">@color/white</color>
+    <color name="background_dark">@color/grey_darker</color>
+    <color name="background_disabled">@color/grey_light</color>
+    <color name="background_surface">@color/grey_lighter</color>
+    <color name="primary_accent">@color/purple</color>
+    <color name="primary_accent_dark">@color/purple_dark</color>
+    <color name="secondary_accent">@color/teal_light</color>
+    <color name="secondary_accent_dark">@color/teal_dark</color>
+    <color name="text_inverse">@color/white</color>
+    <color name="text_light">@color/grey</color>
+    <color name="text">@color/grey_dark</color>
+    <color name="text_dark">@color/grey_darker</color>
+    <color name="positive">@color/green</color>
+    <color name="negative">@color/red</color>
+    <color name="caution">@color/orange</color>
+    <color name="informative">@color/blue</color>
+</resources>

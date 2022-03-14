@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ShapeAppearance -->
+    <style name="ShapeAppearance.App.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/radius_small</item>
+    </style>
+    <style name="ShapeAppearance.App.MediumComponent" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/radius_medium</item>
+    </style>
+    <style name="ShapeAppearance.App.LargeComponent" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/radius_large</item>
+    </style>
+    <style name="ShapeAppearance.App.Button" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerSize">40%</item>
+    </style>
+    <style name="ShapeAppearance.App.BottomSheetDialog" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">@dimen/radius_large</item>
+        <item name="cornerSizeTopRight">@dimen/radius_large</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+
+    <!-- TextAppearance -->
+    <style name="TextAppearance.App.HeadlineLarge" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="fontFamily">@font/montserrat_black</item>
+        <item name="android:fontFamily">@font/montserrat_black</item>
+        <item name="android:textColor">@color/text_dark</item>
+    </style>
+    <style name="TextAppearance.App.HeadlineMedium" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="fontFamily">@font/montserrat_bold</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:textColor">@color/text_dark</item>
+    </style>
+    <style name="TextAppearance.App.HeadlineSmall" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="fontFamily">@font/montserrat_medium</item>
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+        <item name="android:textColor">@color/text_dark</item>
+    </style>
+    <style name="TextAppearance.App.BodyLarge" parent="TextAppearance.Material3.BodyLarge">
+        <item name="fontFamily">@font/montserrat_regular</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:textColor">@color/text_dark</item>
+    </style>
+    <style name="TextAppearance.App.BodyMedium" parent="TextAppearance.Material3.BodyMedium">
+        <item name="fontFamily">@font/montserrat_regular</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:textColor">@color/text_dark</item>
+    </style>
+    <style name="TextAppearance.App.BodySmall" parent="TextAppearance.Material3.BodySmall">
+        <item name="fontFamily">@font/montserrat_light</item>
+        <item name="android:fontFamily">@font/montserrat_light</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+    <style name="TextAppearance.App.Button" parent="TextAppearance.App.BodyMedium">
+        <item name="fontFamily">@font/montserrat_bold</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:textColor">@color/text_dark</item>
+    </style>
+</resources>
